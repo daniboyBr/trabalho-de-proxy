@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<title>Proxy</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body {
+			background-color: black;
+		}
+
+		.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+			color: black !important;
+			background-color: white !important;
+		}
+
+		.text-warning {
+			font-size: 150%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row mt-2">
+			<div class="col-md-3">
+				<div class="card">
+					<div class="card-header bg-dark">
+						<div class="card-titl text-white">Sumário</div>
+					</div>
+					<div class="card-body bg-secondary text-white">
+						<div class="nav flex-column nav-pills bg-dark" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+							<a class=" text-white nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">O que é Proxy?</a>
+
+							<a class="nav-link text-white" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Vantagens do Proxy</a>
+
+							<a class="nav-link text-white" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Desvantagens do Proxy</a>
+
+							<a class="nav-link text-white" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Tipos de Proxy</a>
+
+							<a class="nav-link text-white" id="v-pills-servidor-tab" data-toggle="pill" href="#v-pills-servidor" role="tab" aria-controls="v-pills-servidor" aria-selected="false">Servidor Proxy</a>
+
+							<a class="nav-link text-white" id="v-pills-lab-tab" data-toggle="pill" href="#v-pills-lab" role="tab" aria-controls="v-pills-lab" aria-selected="false">Laboratório</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div class="tab-content" id="v-pills-tabContent">
+				  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+						<div class="card">
+							<div class="card-header bg-dark">
+								<h3 class="card-title text-white">Proxy</h3>
+							</div>
+							<div class="card-body bg-secondary text-white">
+								<p class="text-justify">
+									É um servidor (um sistema de computador ou uma aplicação)
+									que age como um intermediário para requisições de clientes
+									solicitando recursos de outros servidores. Um cliente conecta-se
+									ao servidor proxy, solicitando algum serviço, como um arquivo,
+									conexão, página web ou outros recursos disponíveis de um
+									servidor diferente, e o proxy avalia a solicitação como um meio
+									de simplificar e controlar sua complexidade. Os proxies foram
+									inventados para adicionar estrutura e encapsulamento aos
+									sistemas distribuídos. Esses servidores têm uma série de usos,
+									como filtrar conteúdo, providenciar anonimato, entre outros.
+									Hoje, a maioria dos proxies é proxy web, facilitando o acesso ao
+									conteúdo na World Wide Web e fornecendo anonimato.
+								</p>
+							</div>
+						</div>	  	
+				  </div>
+				  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+				  		<div class="card">
+							<div class="card-header bg-dark">
+								<h3 class="card-title text-white">Vantagens</h3>
+							</div>
+							<div class="card-body bg-secondary text-white">
+								<ul>
+									<li>
+										<h4>Controle do uso da Internet</h4> 
+										<div class="border border-white pt-2 pb-2 pr-2 pl-2 rounded">										
+											<p class="text-justify">
+												O proxy web permite controlar os serviços acessados na internet
+												através do HTTP e é responsável pela gestão de acesso a sites e
+												outras aplicações baseadas no protocolo. O proxy é amplamente
+												utilizado por empresas dos mais variados portes e segmentos,
+												contribuindo para a manutenção da estratégia de segurança do
+												negócio.
+											</p>
+											<p class="text-justify">
+												Permite também que a empresa gerencie os acessos de
+												colaboradores, com base em URLs, horários, grupos de usuários
+												e outros níveis de controle. Com a implantação do serviço, é
+												possível ter acesso a relatórios detalhados de navegação,
+												incluindo consumo de recurso, tempo de navegação, sites mais
+												acessados, além de outras funções que auxiliam na manutenção
+												da integridade do recurso de internet e da rede corporativa.
+											</p>
+										</div>
+									</li>
+									<li>
+										<h4 class="mt-3">Melhoria do Desempenho</h4>
+										<p class="text-justify border border-white pt-2 pb-2 pr-2 pl-2 rounded">
+											A aplicação do serviço de proxy também pode auxiliar na
+											redução do tempo de resposta as requisições, através da
+											utilização da função de cache. O armazenamento dos objetos
+											requisitados reduz o tráfego de informações, melhorando o
+											desempenho do acesso à internet, uma vez que desafoga a
+											transferência de dados.
+										</p>
+									</li>
+									<li>
+										<h4 class="mt-2">Aumento da Produtividade</h4>
+										<p class="text-justify border border-white pt-2 pb-2 pr-2 pl-2 rounded">
+											Por fim, possibilita o aumento da produtividade dos
+											colaboradores. Este é um benefício em cadeia, somente possível
+											como “consequência” do controle apropriado no uso da internet
+											e da melhoria de desempenho proporcionado pelo proxy. Afinal,
+											com bloqueios e liberações específicas – seguindo as políticas
+											de uso da internet – a rotina produtiva das equipes é aprimorada.
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>	
+				  </div>
+				  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+				  		<div class="card">
+							<div class="card-header bg-dark">
+								<h3 class="card-title text-white">Desvantagens</h3>
+							</div>
+							<div class="card-body bg-secondary text-white">
+								<p class="text-justify">
+									Ter um servidor proxy é uma despesa adicional e contribui para a gestão e manutenção da
+									rede . Enquanto a despesa pode ser pequeno para as grandes corporações , pode relaxar um
+									pequenas e médias empresas por vários milhares de dólares para a instalação e manutenção.
+								</p>
+								<p class="text-justify">
+									Alguns servidores proxy são configurados para ser aberto, o que significa que atua como
+									um intermediário entre a Internet e em qualquer computador individual. Se uma rede tem
+									restrições sobre os sites que não são permitidos , um computador dentro da rede que
+									conhece um proxy aberto pode usá-lo para contornar essas restrições . Isso compromete a
+									rede , porque o software malicioso pode atacar o computador através do proxy aberto e
+									entrar na rede.	
+								</p>
+							</div>
+						</div>	
+				  </div>
+				  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+				  		<div class="card">
+							<div class="card-header bg-dark">
+								<h3 class="card-title text-white">Tipos de Proxy</h3>
+							</div>
+							<div class="card-body bg-secondary text-white">
+								<ul>
+									<li>Cache</li>
+									<li>Web</li>
+									<li>Filtro de Conteúdo</li>
+									<li>Anonimizadora</li>
+									<li>Hostil</li>
+									<li>Intercepção</li>
+									<li>Transparente e Não Transparente</li>
+									<li>Recursivo</li>
+									<li>Túnel</li>
+								</ul>
+							</div>
+						</div>	
+				  </div>
+				  <div class="tab-pane fade" id="v-pills-servidor" role="tabpanel" aria-labelledby="v-pills-servidor-tab">
+				  		<div class="card">
+							<div class="card-header bg-dark">
+								<h3 class="card-title text-white">Tipos de Proxy</h3>
+							</div>
+							<div class="card-body bg-secondary text-white">
+								<ul>
+									<li>
+										<h4>Squid</h4>
+										<div class="border border-white pt-2 pb-2 pr-2 pl-2 rounded">
+											<p>
+												O Squid é um servidor proxy que suporta HTTP, HTTPS, FTP e outros.Ele reduz a utilização da
+												conexão e melhora os tempos de resposta fazendo cache de requisições frequentes de páginas web
+												numa rede de computadores. Ele pode também ser usado como um proxy reverso.
+											</p>
+											<p>
+												O Squid foi escrito originalmente para rodar em sistema operacional tipo Unix, mas ele também
+												funciona em sistemas Windows desde sua versão 2.6.
+											</p>
+										</div>
+									</li>
+									<li>
+										<h4 class="mt-3">pfSence</h4>
+										<div class="border border-white pt-2 pb-2 pr-2 pl-2 rounded">
+											<p>
+												O pfSense é open source, licenciado sob BSD license, baseado no sistema operacional
+												FreeBSD e adaptado para assumir o papel de um firewall e/ou roteador de redes. Ele possui
+												recursos que muitas vezes, só encontrada em firewalls comerciais caros, já que podemos
+												realizar com o pfSense a imensa maioria das atividades que esperamos de sistemas com este
+												título.
+											</p>
+											<p>
+												O projeto pfSense foi concebido em meados de setembro de 2004 por Chris Buechler e Scott
+												Ullrich. Chris foi um colaborador assíduo de códigos por muito tempo do projeto m0n0wall. O
+												m0n0wall tem basicamente as mesmas pretensões técnicas do pfSense, mas desde o seu
+												surgimento até o fim de seu desenvolvimento, seu foco foi em appliances
+											</p>						
+										</div>
+									</li>
+									<li>
+										<h4 class="mt-3">Edian</h4>
+										<div class="border border-white pt-2 pb-2 pr-2 pl-2 rounded">
+											<p>
+												É uma distribuição Linux especializada em roteamento/firewall que possui uma interface unificada de
+												gerenciamento. Foi desenvolvido pela italiana Endian Srl e pela comunidade.
+											</p>
+											<p>
+												O Endian Firewall foi originalmente baseado no IPCop, sendo que este é um fork do projeto
+												Smoothwall.
+											</p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>	
+				  </div>
+				  <div class="tab-pane fade" id="v-pills-lab" role="tabpanel" aria-labelledby="v-pills-lab-tab">
+				  		<div class="card">
+				  			<div class="card-header bg-dark">
+				  				<h3 class="card-title text-white">Laborátorio</h3>
+				  			</div>
+				  			<div class="card-body bg-secondary text-white">
+				  				<ul>
+				  					<li>
+				  						<h4>Instalando o Squid</h4>
+				  						<p class="text-warning rounded border border-white pr-2 pl-2 pt-2 pb-2">
+				  							<strong>sudo apt-get update</strong><br>
+				  							<strong>sudo apt-get install squid3 -y</strong>
+				  						</p>
+				  					</li>
+				  					<li>
+				  						<h4 class="mt-3">Configurando o Squid - Proxy Não Transparente</h4>
+				  						<p class="rounded border border-white pr-2 pl-2 pt-2 pb-2">
+				  							--Aquivo de configuração do squid
+				  							<br>
+				  							<strong class="text-warning">vim /etc/squid/squid.conf</strong><br>
+				  							<br>
+				  							--Configuração da Porta Padrão do Squid
+				  							<br>
+				  							<strong class="text-warning">http_port 3128</strong>
+				  							<br><br>
+				  							--Nota: Acesso do squid é feito por meio de Listas de Controle de Acesso
+				  							<br>
+				  							<strong class="text-warning">acl rede01 scr 192.168.10.0/24</strong>
+				  							<br><br>
+				  							--Habilitando o acesso da rede ao Proxy
+				  							<br>
+				  							<strong class="text-warning">http_access allow rede01</strong>
+				  							<br><br>
+				  							--Visibilidade do hostname
+				  							<br>	
+				  							<strong class="text-warning">visible_hotname proxyserve</strong>
+				  							<br><br>
+				  							--Restart do Squid para subir as configurações
+				  							<br>
+				  							<strong class="text-warning">/etc/init.d/squid restart</strong>
+				  						</p>
+				  					</li>
+				  					<li>
+				  						<h4 class="mt-3">Configurando Controle de Acesso a Sites</h4>
+				  						<p class="rounded border border-white pr-2 pl-2 pt-2 pb-2">
+				  							--Criando diretorio onde ficara guardado nossa regras
+				  							<br>
+				  							<strong class="text-warning">mkdir /etc/squid/rules</strong>
+											<br><br>
+											--Editando arquivo de regras
+											<br>
+				  							<strong class="text-warning">vim /etc/squid/rules/blocked_pages</strong><br>
+											<strong class="text-warning">vim /etc/squid/rules/blocked_domains</strong>
+											<br><br>
+											--Editar a configuração do squid
+											<br>
+											<strong class="text-warning">vim /etc/squid/squid.conf</strong>
+											<br><br>
+											--Criando apelido para a regra que criamos
+											<br>
+											<strong class="text-warning">acl blockedUrl url_regex -i "/etc/squid/rules/blocked_pages"</strong><br>
+											<strong class="text-warning">acl blockedDomain dstdomain "/etc/squid/rules/blocked_domains"</strong>
+											<br><br>
+											--Aplicando as regras
+											<br>
+											<strong class="text-warning">http_access deny blockedUrl</strong><br>
+											<strong class="text-warning">http_access deny blockedDomain</strong>
+											<br><br>
+											--Reiniciar squid
+											<br>
+											<strong class="text-warning">/etc/init.d/squid reload</strong><br>
+				  						</p>
+									</li>
+									<li>
+										<h4 class="mt-3">Configurando o Squid - Proxy Transparente</h4>
+										<p class="rounded border border-white pr-2 pl-2 pt-2 pb-2">
+											--Editar a configuração do squid
+											<br>
+											<strong class="text-warning">vim /etc/squid/squid.conf</strong>
+											<br><br>
+											--Configuração da Porta Padrao do Squid
+											<br>
+											<strong class="text-warning">http_port 3218 intercept</strong>
+											<br><br>
+											--Restart do Squid
+											<br>
+											<strong class="text-warning">/etc/init.d/squid reload</strong>
+											<br><br>
+											--Ativar o redirecionamento
+											<br>
+											<strong class="text-warning">echo "1" > /proc/sys/net/ipv4/ip_forward</strong>
+											<br><br>
+											--Nota:liberação da porta para protocolos https
+											<br>
+											<strong class="text-warning">iptables -A FORWARD -s 192.168.10.0/24 -p tcp --dport 443 -j ACCEPT</strong>
+											<br><br>
+											--Nota:roteamento dos serviços tcp e udp para a porta padrao do squid
+											<br>
+											<strong class="text-warning">iptables -t nat -A PREROUTING -s 192.168.10.0/24 -p tcp --dport 80 -j REDIRECT --to-port 3128</strong><br>
+											<strong class="text-warning">iptables -t nat -A PREROUTING -s 192.168.10.0/24 -p udp --dport 80 -j REDIRECT --to-port 3128</strong>
+											<br><br>
+											--Mascaramento dos pacotes que saem da rede
+											<br>
+											<strong class="text-warning">iptables -t nat -A POSROUTING -o enp0s3 -j MASQUERADE</strong>
+										</p>
+									</li>
+				  				</ul>
+				  			</div>
+				  		</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
